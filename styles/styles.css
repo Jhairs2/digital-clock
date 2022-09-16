@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: Digital;
+    src: url('../fonts/DIGITALDREAM.ttf');
+}
+
 .container { 
     background-color: #C1C7C9;
-    width: 600px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
     border: 5px solid black;
     position: absolute;
     top: 50%;
@@ -21,7 +26,7 @@
     background-color: #DADEDF;
     width: 80%;
     height: 60%;
-    border: 2px solid black;
+    border: 6px solid black;
     position: relative;
     top: 50%;
     left: 50%;
@@ -30,11 +35,24 @@
     
   }
 
-  .clock {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    font-size: 12rem;
+.clock {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Digital;
+    padding: 1em;
+    margin-left: 0.75em;
+}
+
+  .time {
+    font-size: 9rem;
+  }
+
+  .P-A {
+
+    padding-right: 1em;
+    padding-bottom: 3em;
+    font-size: 2rem;
+    
   }
