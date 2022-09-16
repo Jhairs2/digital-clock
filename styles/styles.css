@@ -5,6 +5,7 @@
 }
 
 .container { 
+    background-color: #C1C7C9;
     width: 600px;
     height: 300px;
     border: 5px solid black;
@@ -12,11 +13,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    border-radius: 6px;
   }
   
 
   .clock-screen {
+    background-color: #DADEDF;
     width: 80%;
     height: 60%;
     border: 2px solid black;
